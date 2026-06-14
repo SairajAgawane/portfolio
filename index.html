@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sairaj Agawane | AI Developer Portfolio</title>
-    <meta name="description" content="Portfolio of Sairaj Agawane, B.Tech IT student & AI Developer passionate about Machine Learning and Software Engineering.">
-    
+    <meta name="description" content="Portfolio of Sairaj Agawane, Diploma IT student & AI Developer passionate about Machine Learning, IoT and Software Engineering.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -20,18 +18,35 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+    <!-- ═══════════════════════════════════
+         BACKGROUND SYSTEM
+    ═══════════════════════════════════ -->
+
+    <!-- Aurora blobs -->
+    <div class="aurora-layer" aria-hidden="true">
+        <div class="aurora-blob aurora-1"></div>
+        <div class="aurora-blob aurora-2"></div>
+        <div class="aurora-blob aurora-3"></div>
+        <div class="aurora-blob aurora-4"></div>
+    </div>
+
+    <!-- Neural circuit grid canvas -->
+    <canvas id="neural-canvas" aria-hidden="true"></canvas>
+
+    <!-- Scanline overlay -->
+    <div class="scanline-overlay" aria-hidden="true"></div>
+
     <!-- Mouse Follower Glow -->
-    <div class="cursor-glow"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
 
-    <!-- Particle Background -->
-    <div id="tsparticles"></div>
-
-    <!-- Navbar -->
-    <nav class="navbar">
+    <!-- ═══════════════════════════════════
+         NAVBAR
+    ═══════════════════════════════════ -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="#home" class="logo">
                 <span class="logo-mark">SA</span>
-                <span class="logo-separator">|</span>
                 <span class="logo-text">Sairaj Agawane</span>
             </a>
             <ul class="nav-links">
@@ -42,442 +57,478 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
+            <div class="mobile-menu-btn" aria-label="Open menu" role="button" tabindex="0">
+                <span></span><span></span><span></span>
             </div>
         </div>
     </nav>
 
+    <!-- Mobile nav drawer -->
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
     <main>
-        <!-- Hero Section -->
+        <!-- ═══════════════════════════════════
+             HERO SECTION
+        ═══════════════════════════════════ -->
         <section id="home" class="hero-section">
             <div class="hero-content">
                 <div class="hero-text">
+                    <div class="hero-eyebrow">
+                        <span class="eyebrow-dot"></span>
+                        <span>AI · ML · IoT · Engineering</span>
+                    </div>
                     <h2 class="greeting">Hi, I'm</h2>
-                    <h1 class="name glow-text">Sairaj Agawane</h1>
+                    <h1 class="name">Sairaj<br><span class="name-accent">Agawane</span></h1>
                     <div class="subtitle-container">
+                        <span class="typing-cursor">|</span>
                         <span class="typing-text"></span>
                     </div>
                     <p class="description">
-                        I am passionate about building intelligent systems, AI powered applications, and modern web solutions that solve real world problems.
+                        Passionate about building intelligent systems, AI‑powered applications, and modern web solutions that solve real‑world engineering problems.
                     </p>
                     <div class="hero-buttons">
-                        <a href="https://github.com/SairajAgawane" target="_blank" class="glow-btn outline-btn magnetic-btn">
+                        <a href="https://github.com/SairajAgawane" target="_blank" rel="noopener" class="btn btn-outline">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <a href="https://www.linkedin.com/in/sairaj-it" target="_blank" class="glow-btn outline-btn magnetic-btn">
+                        <a href="https://www.linkedin.com/in/sairaj-it" target="_blank" rel="noopener" class="btn btn-outline">
                             <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
-                        <!-- FIXED: Resume download via Google Drive direct link -->
                         <a href="https://drive.google.com/uc?export=download&id=1L56gm3WRBAG_XVXA6zkhJ2QKb5QLJWyE"
-                           class="glow-btn outline-btn magnetic-btn" id="resume-download-btn">
-                            <i class="fas fa-download"></i> Download Resume
+                           class="btn btn-primary">
+                            <i class="fas fa-download"></i> Resume
                         </a>
                     </div>
-                    <div class="social-icons">
-                        <a href="https://instagram.com" target="_blank" class="social-icon">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://wa.me/" target="_blank" class="social-icon">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://telegram.org" target="_blank" class="social-icon">
-                            <i class="fab fa-telegram"></i>
-                        </a>
-                        <a href="mailto:sairajagawane2007@gmail.com" class="social-icon">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                    <div class="social-row">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://telegram.org" target="_blank" rel="noopener" class="social-icon" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="mailto:sairajagawane2007@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
 
-                <!-- AI Terminal Intro -->
+                <!-- Terminal -->
                 <div class="hero-visual">
-                    <div class="terminal-window glass-card">
+                    <div class="terminal-window">
                         <div class="terminal-header">
                             <div class="mac-btns">
-                                <span class="close"></span>
-                                <span class="minimize"></span>
-                                <span class="maximize"></span>
+                                <span class="tb-close"></span>
+                                <span class="tb-min"></span>
+                                <span class="tb-max"></span>
                             </div>
-                            <div class="terminal-title">Sairaj_ai_system.exe</div>
+                            <div class="terminal-title">sairaj@ai-system ~ zsh</div>
+                            <div class="terminal-status"><span class="status-dot"></span>LIVE</div>
                         </div>
                         <div class="terminal-body">
                             <div id="terminal-output">
-                                <div class="terminal-text">
-                                    <span class="terminal-prompt">user@sairaj-ai:~$</span>
+                                <div class="terminal-line">
+                                    <span class="tp">sairaj@ai:~$</span>
                                     <span class="typed-terminal"></span>
                                 </div>
                             </div>
-                            <div class="terminal-input-line">
-                                <span class="terminal-prompt">user@sairaj-ai:~$</span>
-                                <input type="text" id="terminal-input" autocomplete="off" placeholder="type help and press Enter">
+                            <div class="terminal-input-line" id="terminal-input-line">
+                                <span class="tp">sairaj@ai:~$</span>
+                                <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" placeholder="type 'help'">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="scroll-indicator">
-                <a href="#about">
-                    <div class="mouse">
-                        <div class="wheel"></div>
-                    </div>
-                </a>
+            <a href="#about" class="scroll-cue" aria-label="Scroll down">
+                <div class="scroll-line"></div>
+                <span>scroll</span>
+            </a>
+        </section>
+
+        <!-- ═══════════════════════════════════
+             ABOUT SECTION
+        ═══════════════════════════════════ -->
+        <section id="about" class="about-section section-pad">
+            <div class="section-label">01 — About</div>
+            <h2 class="section-heading">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text reveal-left">
+                    <p>I am a <span class="hl">Diploma IT student</span> passionate about <span class="hl">Artificial Intelligence</span>, <span class="hl">Machine Learning</span>, <span class="hl">Software Development</span>, and <span class="hl">Internet of Things</span>.</p>
+                    <p>I build innovative projects in <span class="hl">AI</span>, <span class="hl">IoT</span>, and <span class="hl">Cybersecurity</span> that solve real‑world challenges and improve everyday life through technology.</p>
+                    <p>My goal is to become an <span class="hl">AI Engineer</span> and <span class="hl">Cybersecurity Professional</span> contributing to Industry 4.0 and digital transformation through next‑generation technologies.</p>
+                </div>
+                <div class="profile-card glass-card reveal-right">
+                    <div class="card-glow-effect"></div>
+                    <h3 class="card-title">Profile Details</h3>
+                    <ul class="profile-list">
+                        <li>
+                            <span class="pl-label"><i class="fas fa-graduation-cap"></i> Education</span>
+                            <span class="pl-value">Diploma Engg. (Information Technology)<br>SVPM's ITE, Malegaon (Bk)</span>
+                        </li>
+                        <li>
+                            <span class="pl-label"><i class="fas fa-map-marker-alt"></i> Location</span>
+                            <span class="pl-value">Maharashtra, India</span>
+                        </li>
+                        <li>
+                            <span class="pl-label"><i class="fas fa-brain"></i> Interests</span>
+                            <div class="tag-wrap">
+                                <span class="tag">Artificial Intelligence</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Software Dev</span>
+                                <span class="tag">Cybersecurity</span>
+                                <span class="tag">IoT Development</span>
+                                <span class="tag">Industry 4.0</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="about-section section-padding">
-            <h2 class="section-title glow-heading">About Me</h2>
-            <div class="about-container">
-                <div class="about-text">
-                    <p>I am a Diploma Information Technology student passionate about <span class="highlight">Artificial Intelligence</span>, <span class="highlight">Machine Learning</span>, and <span class="highlight">Software Development</span>, <span class="highlight">Internet Of Things</span>.</p>
-                    <p>I enjoy developing innovative projects in <span class="highlight">Artificial Intelligence</span>, <span class="highlight">IoT</span>, and <span class="highlight">Cybersecurity</span> that solve real-world challenges and improve everyday life through technology.</p>
-                    <p>My goal is to become an AI Engineer and Cybersecurity Professional capable of building impactful solutions, intelligent automation systems <span class="highlight">next-generation technologies</span> that contribute to Industry 4.0 and digital transformation.</p>
-                </div>
+        <!-- ═══════════════════════════════════
+             SKILLS SECTION
+        ═══════════════════════════════════ -->
+        <section id="skills" class="skills-section section-pad">
+            <div class="section-label">02 — Skills</div>
+            <h2 class="section-heading">Technical Skills</h2>
+            <div class="skills-layout">
+                <div class="skills-grid">
 
-                <div class="profile-card glass-card tilt-card">
-                    <div class="profile-glow"></div>
-                    <div class="profile-content">
-                        <h3>Profile Details</h3>
-                        <ul class="profile-list">
-                            <li>
-                                <span class="label"><i class="fas fa-graduation-cap"></i> Education:</span>
-                                <span class="value">Diploma Engineering (Information Technology) | SVPM's Institute of Technology & Engineering, Malegaon (Bk)</span>
-                            </li>
-                            <li>
-                                <span class="label"><i class="fas fa-brain"></i> Interests:</span>
-                                <div class="tags">
-                                    <span class="tag">Artificial Intelligence</span>
-                                    <span class="tag">Machine Learning</span>
-                                    <span class="tag">Software Development</span>
-                                    <span class="tag">Cybersecurity</span>
-                                    <span class="tag">IoT Development</span>
-                                    <span class="tag">Industrial Automation</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="skills-section section-padding">
-            <h2 class="section-title glow-heading">Technical Skills</h2>
-            <div class="skills-container">
-
-                <!-- LEFT SIDE: Skill Cards -->
-                <div class="modern-skills-grid">
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#e34c26;"><i class="fab fa-html5"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#e34c26"><i class="fab fa-html5"></i></div>
                         <span class="skill-name">HTML</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:82%; background:linear-gradient(90deg,#ff4e00,#ec9f05);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="82" style="background:linear-gradient(90deg,#ff6b35,#f7931e)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#f7df1e;"><i class="fab fa-js"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#f7df1e"><i class="fab fa-js"></i></div>
                         <span class="skill-name">JavaScript</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:81%; background:linear-gradient(90deg,#f7971e,#ffd200);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="81" style="background:linear-gradient(90deg,#f7971e,#ffd200)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#3776AB;"><i class="fab fa-python"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#3776AB"><i class="fab fa-python"></i></div>
                         <span class="skill-name">Python</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:80%; background:linear-gradient(90deg,#11998e,#38ef7d);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="80" style="background:linear-gradient(90deg,#00f5ff,#00b4d8)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#264de4;"><i class="fab fa-css3-alt"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#264de4"><i class="fab fa-css3-alt"></i></div>
                         <span class="skill-name">CSS</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:79%; background:linear-gradient(90deg,#2193b0,#6dd5ed);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="79" style="background:linear-gradient(90deg,#7c3aed,#a78bfa)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#8E2DE2;"><i class="fas fa-brain"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#00f5ff"><i class="fas fa-brain"></i></div>
                         <span class="skill-name">Machine Learning</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:78%; background:linear-gradient(90deg,#8E2DE2,#4A00E0);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="78" style="background:linear-gradient(90deg,#00f5ff,#7c3aed)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#00599C;"><span style="font-family:monospace;font-weight:bold;font-size:1.4rem;">C++</span></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#00599C"><span class="mono-icon">C++</span></div>
                         <span class="skill-name">C++</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:76%; background:linear-gradient(90deg,#1488CC,#2B32B2);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="76" style="background:linear-gradient(90deg,#1488CC,#2B32B2)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#cb2d3e;"><i class="fab fa-java"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#cb2d3e"><i class="fab fa-java"></i></div>
                         <span class="skill-name">Java</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:74%; background:linear-gradient(90deg,#cb2d3e,#ef473a);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="74" style="background:linear-gradient(90deg,#cb2d3e,#ef473a)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#A8B9CC;"><span style="font-family:monospace;font-weight:bold;font-size:1.4rem;">C</span></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#A8B9CC"><span class="mono-icon">C</span></div>
                         <span class="skill-name">C</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:73%; background:linear-gradient(90deg,#8e9eab,#eef2f3);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="73" style="background:linear-gradient(90deg,#8e9eab,#c9d6df)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#f46b45;"><i class="fab fa-git-alt"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#f46b45"><i class="fab fa-git-alt"></i></div>
                         <span class="skill-name">Git</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:72%; background:linear-gradient(90deg,#f46b45,#eea849);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="72" style="background:linear-gradient(90deg,#f46b45,#eea849)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#ffffff;"><i class="fab fa-github"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#e0e0e0"><i class="fab fa-github"></i></div>
                         <span class="skill-name">GitHub</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:70%; background:linear-gradient(90deg,#616161,#eeeeee);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="70" style="background:linear-gradient(90deg,#616161,#eeeeee)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#0078D7;"><i class="fas fa-code"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#0078D7"><i class="fas fa-code"></i></div>
                         <span class="skill-name">VS Code</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:69%; background:linear-gradient(90deg,#0277BD,#29B6F6);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="69" style="background:linear-gradient(90deg,#0277BD,#29B6F6)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#0052D4;"><i class="fas fa-database"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#0052D4"><i class="fas fa-database"></i></div>
                         <span class="skill-name">MySQL</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:68%; background:linear-gradient(90deg,#0052D4,#4364F7);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="68" style="background:linear-gradient(90deg,#0052D4,#4364F7)"></div></div>
                     </div>
-
-                    <div class="modern-skill-card">
-                        <div class="skill-icon-wrapper" style="color:#F2C811;"><i class="fas fa-chart-bar"></i></div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#F2C811"><i class="fas fa-chart-bar"></i></div>
                         <span class="skill-name">Power BI</span>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width:64%; background:linear-gradient(90deg,#FBC02D,#FFF176);"></div>
-                        </div>
+                        <div class="skill-track"><div class="skill-fill" data-w="64" style="background:linear-gradient(90deg,#FBC02D,#FFF176)"></div></div>
+                    </div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#00f5ff"><i class="fas fa-microchip"></i></div>
+                        <span class="skill-name">ESP32 / IoT</span>
+                        <div class="skill-track"><div class="skill-fill" data-w="75" style="background:linear-gradient(90deg,#00f5ff,#00b4d8)"></div></div>
+                    </div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#a78bfa"><i class="fas fa-eye"></i></div>
+                        <span class="skill-name">OpenCV</span>
+                        <div class="skill-track"><div class="skill-fill" data-w="70" style="background:linear-gradient(90deg,#7c3aed,#a78bfa)"></div></div>
+                    </div>
+                    <div class="skill-card reveal-up">
+                        <div class="skill-icon" style="color:#38ef7d"><i class="fas fa-shield-alt"></i></div>
+                        <span class="skill-name">Cybersecurity</span>
+                        <div class="skill-track"><div class="skill-fill" data-w="65" style="background:linear-gradient(90deg,#11998e,#38ef7d)"></div></div>
                     </div>
 
                 </div>
 
-                <!-- RIGHT SIDE: 3D Skill Sphere -->
-                <div class="sphere-container">
-                    <div id="skill-sphere">
-                        <span class="TagCloud"></span>
+                <!-- Sphere -->
+                <div class="sphere-wrap">
+                    <div class="sphere-rings" aria-hidden="true">
+                        <div class="ring r1"></div>
+                        <div class="ring r2"></div>
+                        <div class="ring r3"></div>
                     </div>
+                    <div id="skill-sphere"></div>
                 </div>
-
             </div>
         </section>
 
-        <!-- Featured Projects Section -->
-        <section id="projects" class="projects-section section-padding">
-            <h2 class="section-title glow-heading">Featured Projects</h2>
-            <div class="projects-grid-modern">
+        <!-- ═══════════════════════════════════
+             PROJECTS SECTION
+        ═══════════════════════════════════ -->
+        <section id="projects" class="projects-section section-pad">
+            <div class="section-label">03 — Projects</div>
+            <h2 class="section-heading">Featured Projects</h2>
 
-                <!-- PROJECT 1: Jarvis AI Assistant -->
-                <div class="modern-project-card glass-card">
-                    <div class="project-image-container">
-                        <img src="https://i.postimg.cc/cJWVMLKk/Whats-App-Image-2026-06-04-at-9-44-39-PM.jpg" alt="Jarvis AI Assistant Code">
+            <div class="projects-scroll">
+
+                <!-- PROJECT 1: Jarvis -->
+                <div class="proj-card glass-card reveal-up">
+                    <div class="proj-img-wrap">
+                        <img src="https://i.postimg.cc/cJWVMLKk/Whats-App-Image-2026-06-04-at-9-44-39-PM.jpg" alt="Jarvis AI Assistant">
+                        <div class="proj-img-overlay">
+                            <div class="proj-num">01</div>
+                        </div>
                     </div>
-                    <div class="project-header">
-                        <h3>Jarvis AI Virtual Assistant</h3>
-                        <p>An intelligent web-based AI Assistant inspired by JARVIS. The system supports voice commands, speech recognition, smart responses, web search, application launching, and real-time interaction through a modern user interface.</p>
-                    </div>
-                    <div class="project-tech-stack">
-                        <span class="tech-tag"><i class="fas fa-code"></i> HTML5</span>
-                        <span class="tech-tag"><i class="fas fa-laptop-code"></i> JavaScript</span>
-                        <span class="tech-tag"><i class="fas fa-paint-brush"></i> CSS3</span>
-                        <span class="tech-tag"><i class="fas fa-microphone"></i> Speech API</span>
-                        <span class="tech-tag"><i class="fas fa-robot"></i> AI Assistant</span>
-                        <span class="tech-tag"><i class="fas fa-file-code"></i> JSON</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/SairajAgawane/phonebook-directory-bst" target="_blank" class="glow-btn outline-btn small-btn"><i class="fab fa-github"></i> GitHub</a>
-                        <a href="https://jarvis-o6a8w8yyd-sais-projects-3ea77644.vercel.app" target="_blank" class="glow-btn outline-btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <div class="proj-body">
+                        <h3 class="proj-title">Jarvis AI Virtual Assistant</h3>
+                        <p class="proj-desc">An intelligent web-based AI assistant with voice commands, speech recognition, smart responses, web search, and real-time interaction through a modern UI.</p>
+                        <div class="proj-tags">
+                            <span class="ptag">HTML5</span>
+                            <span class="ptag">JavaScript</span>
+                            <span class="ptag">CSS3</span>
+                            <span class="ptag">Speech API</span>
+                            <span class="ptag">AI Assistant</span>
+                            <span class="ptag">JSON</span>
+                        </div>
+                        <div class="proj-links">
+                            <a href="https://github.com/SairajAgawane/phonebook-directory-bst" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://jarvis-o6a8w8yyd-sais-projects-3ea77644.vercel.app" target="_blank" rel="noopener" class="btn btn-sm btn-ghost">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- PROJECT 2: Intelligent Predictive Maintenance -->
-                <div class="modern-project-card glass-card project-card-industry40">
-                    <!-- Industry 4.0 badge -->
-                    <div class="industry-badge">
-                        <i class="fas fa-industry"></i> Industry 4.0
-                    </div>
+                <!-- PROJECT 2: Predictive Maintenance -->
+                <div class="proj-card proj-card-featured glass-card reveal-up">
+                    <div class="feat-badge"><i class="fas fa-industry"></i> Industry 4.0</div>
 
-                    <!-- Image Carousel -->
-                    <div class="project-carousel">
+                    <!-- Carousel -->
+                    <div class="carousel">
                         <div class="carousel-track">
-                            <div class="carousel-slide">
-                                <img src="https://i.postimg.cc/3NVgqFVS/Whats-App-Image-2026-06-10-at-10-03-24-PM.jpg" alt="Predictive Maintenance Robot System">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://i.postimg.cc/2SvxPgzX/Whats-App-Image-2026-06-10-at-10-00-16-PM.jpg" alt="ESP32 IoT Control Unit">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://i.postimg.cc/265h8tD5/Whats-App-Image-2026-06-10-at-10-04-27-PM.jpg" alt="Industrial Automation Setup">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://i.postimg.cc/MGq1gT3j/Whats-App-Image-2026-06-10-at-10-04-13-PM.jpg" alt="Crane Mechanism and Sensors">
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://i.postimg.cc/Y05WRqLZ/Whats-App-Image-2026-06-10-at-10-04-49-PM.jpg" alt="QR Code Maintenance Monitoring">
-                            </div>
+                            <div class="carousel-slide"><img src="https://i.postimg.cc/3NVgqFVS/Whats-App-Image-2026-06-10-at-10-03-24-PM.jpg" alt="Robot System"></div>
+                            <div class="carousel-slide"><img src="https://i.postimg.cc/2SvxPgzX/Whats-App-Image-2026-06-10-at-10-00-16-PM.jpg" alt="ESP32 Unit"></div>
+                            <div class="carousel-slide"><img src="https://i.postimg.cc/265h8tD5/Whats-App-Image-2026-06-10-at-10-04-27-PM.jpg" alt="Automation Setup"></div>
+                            <div class="carousel-slide"><img src="https://i.postimg.cc/MGq1gT3j/Whats-App-Image-2026-06-10-at-10-04-13-PM.jpg" alt="Crane & Sensors"></div>
+                            <div class="carousel-slide"><img src="https://i.postimg.cc/Y05WRqLZ/Whats-App-Image-2026-06-10-at-10-04-49-PM.jpg" alt="QR Monitoring"></div>
                         </div>
-                        <button class="carousel-btn carousel-prev" onclick="carouselPrev(this)">&#8592;</button>
-                        <button class="carousel-btn carousel-next" onclick="carouselNext(this)">&#8594;</button>
-                        <div class="carousel-dots">
-                            <span class="dot active" onclick="carouselGoTo(this.parentElement, 0)"></span>
-                            <span class="dot" onclick="carouselGoTo(this.parentElement, 1)"></span>
-                            <span class="dot" onclick="carouselGoTo(this.parentElement, 2)"></span>
-                            <span class="dot" onclick="carouselGoTo(this.parentElement, 3)"></span>
-                            <span class="dot" onclick="carouselGoTo(this.parentElement, 4)"></span>
+                        <button class="car-btn car-prev" onclick="carouselPrev(this)" aria-label="Previous">&#8592;</button>
+                        <button class="car-btn car-next" onclick="carouselNext(this)" aria-label="Next">&#8594;</button>
+                        <div class="car-dots">
+                            <span class="cdot active" onclick="carouselGoTo(this.parentElement,0)"></span>
+                            <span class="cdot" onclick="carouselGoTo(this.parentElement,1)"></span>
+                            <span class="cdot" onclick="carouselGoTo(this.parentElement,2)"></span>
+                            <span class="cdot" onclick="carouselGoTo(this.parentElement,3)"></span>
+                            <span class="cdot" onclick="carouselGoTo(this.parentElement,4)"></span>
                         </div>
                     </div>
 
-                    <div class="project-header">
-                        <h3>🚀 Intelligent Predictive Maintenance Using AI in Industry 4.0</h3>
-                        <p>An IoT and AI-powered industrial automation project combining a mobile-controlled robot, crane mechanism, QR-based maintenance monitoring, ESP32-CAM, sensors, and predictive maintenance. Reduces manual labor, improves workplace safety, and enables real-time monitoring for smart manufacturing.</p>
-                    </div>
+                    <div class="proj-body">
+                        <h3 class="proj-title">🚀 Intelligent Predictive Maintenance — AI in Industry 4.0</h3>
+                        <p class="proj-desc">IoT + AI industrial automation combining mobile-controlled robot, crane, QR maintenance monitoring, ESP32-CAM, and predictive ML. Reduces manual labor, improves safety, enables real-time smart manufacturing.</p>
 
-                    <!-- Key Features -->
-                    <div class="project-features">
-                        <div class="feature-item"><i class="fas fa-robot"></i> Mobile-controlled ESP32 Robot</div>
-                        <div class="feature-item"><i class="fas fa-video"></i> ESP32-CAM Live Streaming</div>
-                        <div class="feature-item"><i class="fas fa-qrcode"></i> QR-Based Maintenance Monitoring</div>
-                        <div class="feature-item"><i class="fas fa-thermometer-half"></i> DHT11 Temperature & Humidity</div>
-                        <div class="feature-item"><i class="fas fa-eye"></i> IR Obstacle Detection</div>
-                        <div class="feature-item"><i class="fas fa-chart-line"></i> Real-Time IoT Dashboard</div>
-                    </div>
+                        <div class="feat-grid">
+                            <div class="feat-item"><i class="fas fa-robot"></i> Mobile ESP32 Robot</div>
+                            <div class="feat-item"><i class="fas fa-video"></i> ESP32-CAM Streaming</div>
+                            <div class="feat-item"><i class="fas fa-qrcode"></i> QR Maintenance Monitor</div>
+                            <div class="feat-item"><i class="fas fa-thermometer-half"></i> DHT11 Sensor</div>
+                            <div class="feat-item"><i class="fas fa-eye"></i> IR Obstacle Detection</div>
+                            <div class="feat-item"><i class="fas fa-chart-line"></i> Real-Time IoT Dashboard</div>
+                        </div>
 
-                    <!-- Stats -->
-                    <div class="project-stats">
-                        <div class="stat-item">
-                            <span class="stat-value">5+</span>
-                            <span class="stat-label">Sensors</span>
+                        <div class="proj-stats">
+                            <div class="pstat"><span class="pstat-v">5+</span><span class="pstat-l">Sensors</span></div>
+                            <div class="pstat"><span class="pstat-v">ESP32</span><span class="pstat-l">Core MCU</span></div>
+                            <div class="pstat"><span class="pstat-v">AI/ML</span><span class="pstat-l">Powered</span></div>
+                            <div class="pstat"><span class="pstat-v">4.0</span><span class="pstat-l">Industry</span></div>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-value">ESP32</span>
-                            <span class="stat-label">Core MCU</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-value">AI/ML</span>
-                            <span class="stat-label">Powered</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-value">4.0</span>
-                            <span class="stat-label">Industry</span>
-                        </div>
-                    </div>
 
-                    <div class="project-tech-stack">
-                        <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
-                        <span class="tech-tag"><i class="fas fa-microchip"></i> ESP32</span>
-                        <span class="tech-tag"><i class="fas fa-camera"></i> ESP32-CAM</span>
-                        <span class="tech-tag"><i class="fas fa-eye"></i> OpenCV</span>
-                        <span class="tech-tag"><i class="fas fa-qrcode"></i> Pyzbar</span>
-                        <span class="tech-tag"><i class="fas fa-wifi"></i> IoT</span>
-                        <span class="tech-tag"><i class="fas fa-robot"></i> Robotics</span>
-                        <span class="tech-tag"><i class="fas fa-brain"></i> AI/ML</span>
-                        <span class="tech-tag"><i class="fas fa-code"></i> HTML/CSS/JS</span>
-                        <span class="tech-tag"><i class="fas fa-industry"></i> Embedded Systems</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="#" class="glow-btn outline-btn small-btn view-details-btn" onclick="openProjectDetails(event)">
-                            <i class="fas fa-info-circle"></i> View Details
-                        </a>
-                        <span class="team-badge"><i class="fas fa-users"></i> Team Project · IT Dept</span>
+                        <div class="proj-tags">
+                            <span class="ptag">Python</span><span class="ptag">ESP32</span><span class="ptag">ESP32-CAM</span>
+                            <span class="ptag">OpenCV</span><span class="ptag">Pyzbar</span><span class="ptag">IoT</span>
+                            <span class="ptag">Robotics</span><span class="ptag">AI/ML</span><span class="ptag">HTML/CSS/JS</span>
+                            <span class="ptag">Embedded Systems</span>
+                        </div>
+                        <div class="proj-links">
+                            <button class="btn btn-sm btn-primary" onclick="openModal()">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <span class="team-pill"><i class="fas fa-users"></i> Team · IT Dept</span>
+                        </div>
                     </div>
                 </div>
 
             </div>
-            <div class="scroll-hint">
-                <i class="fas fa-arrow-right"></i> Scroll for more
+            <div class="scroll-hint-row"><i class="fas fa-arrow-right"></i> Scroll for more</div>
+        </section>
+
+        <!-- ═══════════════════════════════════
+             EXPERIENCE SECTION
+        ═══════════════════════════════════ -->
+        <section id="experience" class="experience-section section-pad">
+            <div class="section-label">04 — Experience</div>
+            <h2 class="section-heading">Experience</h2>
+            <div class="exp-grid">
+                <div class="exp-img-wrap glass-card reveal-left">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="AI Internship">
+                    <div class="exp-img-badge">Current</div>
+                </div>
+                <div class="exp-content reveal-right">
+                    <div class="exp-role">AI / ML / IoT Intern</div>
+                    <div class="exp-company">Air Guruji International</div>
+                    <p class="exp-desc">Gaining hands‑on experience in Artificial Intelligence, Machine Learning, Internet of Things, Python Development, and Automation Technologies — building real‑world AI‑powered solutions and Industry 4.0 projects.</p>
+                    <p class="exp-desc">Developing intelligent systems, cybersecurity applications, and automation tools that contribute to digital transformation and next‑generation manufacturing.</p>
+                    <div class="exp-tags">
+                        <span class="etag">Artificial Intelligence</span>
+                        <span class="etag">Machine Learning</span>
+                        <span class="etag">IoT</span>
+                        <span class="etag">Python</span>
+                        <span class="etag">Cybersecurity</span>
+                        <span class="etag">Automation</span>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="experience-section section-padding">
-            <h2 class="section-title glow-heading">Experience</h2>
-            <div class="experience-container">
+        <!-- ═══════════════════════════════════
+             CONTACT SECTION
+        ═══════════════════════════════════ -->
+        <section id="contact" class="contact-section section-pad">
+            <div class="section-label">05 — Contact</div>
+            <h2 class="section-heading">Get In Touch</h2>
+            <p class="contact-sub">Open for collaborations, internships, and interesting technology discussions.</p>
 
-                <div class="experience-image-wrapper glass-card">
-                    <img src="https://i.postimg.cc/05YJmmkv/air.png" alt="AI Internship Experience">
-                </div>
-
-                <div class="experience-content">
-                    <h3 class="experience-title">AI / ML / IoT Intern</h3>
-                    <h4 class="experience-company">Air Guruji International</h4>
-                    <p class="experience-description">
-                        Currently working as an AI / ML / IoT Intern and gaining practical experience in Artificial Intelligence, Machine Learning, Internet of Things (IoT), Python Development and Automation Technologies.
-                    </p>
-                    <p class="experience-description">
-                        Passionate about building intelligent systems, AI-powered solutions, cybersecurity applications and Industry 4.0 projects that solve real-world problems.
-                    </p>
-                    <div class="experience-tags">
-                        <span class="exp-tag">Artificial Intelligence</span>
-                        <span class="exp-tag">Machine Learning</span>
-                        <span class="exp-tag">IoT</span>
-                        <span class="exp-tag">Python</span>
-                        <span class="exp-tag">Cybersecurity</span>
-                        <span class="exp-tag">Automation</span>
+            <div class="contact-grid">
+                <div class="contact-info glass-card reveal-left">
+                    <h3>Let's Connect</h3>
+                    <div class="cinfo-item">
+                        <div class="cinfo-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="cinfo-label">Email</div>
+                            <a href="mailto:sairajagawane2007@gmail.com" class="cinfo-val">sairajagawane2007@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="cinfo-item">
+                        <div class="cinfo-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <div class="cinfo-label">Location</div>
+                            <span class="cinfo-val">Maharashtra, India</span>
+                        </div>
+                    </div>
+                    <div class="social-connect">
+                        <p class="social-connect-label">Social Profiles</p>
+                        <div class="social-row">
+                            <a href="https://github.com/SairajAgawane" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/SairajAgawane" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:sairajagawane2007@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <a href="https://instagram.com/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://t.me/" target="_blank" rel="noopener" class="social-icon" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        </div>
                     </div>
                 </div>
 
+                <form class="contact-form glass-card reveal-right" id="contact-form" novalidate>
+                    <div class="field-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                        <div class="field-line"></div>
+                    </div>
+                    <div class="field-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email Address</label>
+                        <div class="field-line"></div>
+                    </div>
+                    <div class="field-group">
+                        <textarea id="message" required rows="5" placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                        <div class="field-line"></div>
+                    </div>
+                    <div class="form-footer">
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div class="form-note"><i class="fas fa-clock"></i> Typically replies within 24 hours</div>
+                    </div>
+                </form>
             </div>
         </section>
+    </main>
 
-        <!-- Contact Section -->
-       <form action="https://api.web3forms.com/submit" method="POST" class="contact-form glass-card" id="contact-form">
+    <!-- ═══════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════ -->
+    <footer class="footer">
+        <div class="footer-line"></div>
+        <div class="footer-inner">
+            <p>&copy; 2026 Sairaj Agawane — All Rights Reserved.</p>
+            <div class="footer-status"><span class="status-dot"></span> System Online</div>
+        </div>
+    </footer>
 
-<input type="hidden" name="access_key" value="b0253430-c3b5-424f-b000-34255e979edc">
-
-<input type="hidden" name="subject" value="New Portfolio Contact Message">
-
-<div class="input-group">
-    <input type="text" id="name" name="name" required placeholder=" ">
-    <label for="name">Name</label>
-    <div class="input-glow"></div>
-</div>
-
-<div class="input-group">
-    <input type="email" id="email" name="email" required placeholder=" ">
-    <label for="email">Email</label>
-    <div class="input-glow"></div>
-</div>
-
-<div class="input-group">
-    <textarea id="message" name="message" required rows="5" placeholder=" "></textarea>
-    <label for="message">Message</label>
-    <div class="input-glow"></div>
-</div>
-
-<div class="form-footer">
-    <button type="submit" class="glow-btn submit-btn magnetic-btn">
-        <span>Send Message</span>
-        <i class="fas fa-paper-plane"></i>
-    </button>
-
-    <div class="form-response-time">
-        <i class="fas fa-clock"></i>
-        <span>I usually respond within 24 hours.</span>
+    <!-- ═══════════════════════════════════
+         PROJECT MODAL
+    ═══════════════════════════════════ -->
+    <div class="modal-overlay" id="project-modal" onclick="closeModal(event)">
+        <div class="modal-box glass-card">
+            <button class="modal-close" onclick="closeModalBtn()" aria-label="Close modal"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <div class="modal-icon"><i class="fas fa-industry"></i></div>
+                <div>
+                    <h2 class="modal-title">Intelligent Predictive Maintenance</h2>
+                    <p class="modal-sub">AI in Industry 4.0 · IoT + Robotics · Team Project</p>
+                </div>
+            </div>
+            <div class="modal-feat-grid">
+                <div class="mfeat"><i class="fas fa-robot" style="color:#00f5ff"></i><div><strong>Mobile Robot</strong><p>ESP32‑based robot controlled via smartphone for industrial floor navigation.</p></div></div>
+                <div class="mfeat"><i class="fas fa-cogs" style="color:#ff9900"></i><div><strong>Crane Mechanism</strong><p>Automated crane for object lifting and handling in industrial settings.</p></div></div>
+                <div class="mfeat"><i class="fas fa-qrcode" style="color:#38ef7d"></i><div><strong>QR Maintenance</strong><p>QR code scanning for machine maintenance logging and real‑time monitoring.</p></div></div>
+                <div class="mfeat"><i class="fas fa-camera" style="color:#a78bfa"></i><div><strong>Live Streaming</strong><p>ESP32‑CAM module for live video feed of the industrial environment.</p></div></div>
+                <div class="mfeat"><i class="fas fa-thermometer-half" style="color:#f7df1e"></i><div><strong>Sensor Network</strong><p>DHT11 for temperature/humidity; IR sensors for obstacle detection.</p></div></div>
+                <div class="mfeat"><i class="fas fa-brain" style="color:#b224ef"></i><div><strong>Predictive AI</strong><p>ML algorithms for predictive maintenance and failure prevention.</p></div></div>
+            </div>
+        </div>
     </div>
-</div>
-</form>
+
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.3.2/dist/TagCloud.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
