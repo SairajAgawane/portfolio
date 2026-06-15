@@ -155,7 +155,7 @@ if (typeof ScrollReveal !== 'undefined') {
     sr.reveal('.section-heading', { origin: 'top', delay: 100 });
 }
 
-// ── Contact form ──
+// ── Contact form (Web3Forms) ──
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', async e => {
@@ -166,7 +166,8 @@ if (contactForm) {
         btn.disabled = true;
 
         const fd = new FormData();
-        fd.append('access_key', '2180806b-af16-48e9-a989-ac0f8834ca0a');
+        // ── Web3Forms Access Key (Sairaj Portfolio Contact) ──
+        fd.append('access_key', 'b0253430-c3b5-424f-b000-34255e979edc');
         fd.append('name',    document.getElementById('name').value);
         fd.append('email',   document.getElementById('email').value);
         fd.append('message', document.getElementById('message').value);
