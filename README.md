@@ -1,9 +1,7 @@
 <!-- ══════════════════════════════════════════════════════════════════════ -->
 <!--        SAIRAJ AGAWANE — PREMIUM GITHUB README 2026 ⚡               -->
 <!-- ══════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
-  
 <!-- ─────────────────── ANIMATED HEADER BANNER ─────────────────── -->
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=300&text=SAIRAJ%20AGAWANE&fontSize=72&color=0:0d0221,50:0a0e3f,100:0d0221&stroke=6E40C9&strokeWidth=2&fontColor=00f5ff&animation=fadeIn&fontAlignY=55&desc=AI%20Developer%20%7C%20ML%20Engineer%20%7C%20IoT%20Innovator%20%7C%20Future%20AI%20Architect&descSize=18&descAlignY=75&descColor=bd00ff" width="100%" />
