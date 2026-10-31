@@ -1,0 +1,8 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI, IoT, and cybersecurity neural network</title>
+  <desc id="desc">A glowing neural network connecting artificial intelligence, IoT, and cybersecurity nodes.</desc>
+  <rect width="900" height="300" rx="24" fill="#050816"/>
+  <g stroke="#6E40C9" stroke-width="2" opacity=".65"><path d="M110 82L270 150L110 218M270 150L450 72L450 228L630 150L790 82M450 72L790 218M450 228L790 82"/></g>
+  <g fill="#050816" stroke="#00F5FF" stroke-width="4"><circle cx="110" cy="82" r="15"/><circle cx="110" cy="218" r="15"/><circle cx="270" cy="150" r="18"/><circle cx="450" cy="72" r="15"/><circle cx="450" cy="228" r="15"/><circle cx="630" cy="150" r="18"/><circle cx="790" cy="82" r="15"/><circle cx="790" cy="218" r="15"/></g>
+  <g font-family="monospace" font-size="13" font-weight="700" text-anchor="middle"><text x="110" y="55" fill="#00F5FF">AI</text><text x="110" y="250" fill="#BD00FF">IoT</text><text x="270" y="185" fill="#F8FAFC">ML</text><text x="450" y="45" fill="#00F5FF">CV</text><text x="450" y="270" fill="#BD00FF">EDGE</text><text x="630" y="185" fill="#F8FAFC">SEC</text><text x="790" y="55" fill="#00F5FF">DATA</text><text x="790" y="250" fill="#BD00FF">BUILD</text></g>
+</svg>

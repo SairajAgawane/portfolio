@@ -1,0 +1,17 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sairaj Agawane AI developer profile banner</title>
+  <desc id="desc">An original holographic AI network with cyan and purple rings, connected intelligence nodes, and a central core.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#050816"/><stop offset=".55" stop-color="#0D0221"/><stop offset="1" stop-color="#11133A"/></linearGradient>
+    <linearGradient id="cyan" x1="260" y1="120" x2="1320" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#00F5FF"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <linearGradient id="purple" x1="300" y1="420" x2="1280" y2="80" gradientUnits="userSpaceOnUse"><stop stop-color="#6E40C9"/><stop offset="1" stop-color="#BD00FF"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" stroke="#00F5FF" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/><rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <g opacity=".5" stroke="url(#cyan)" stroke-width="2"><path d="M150 160L360 90L520 225L690 125L850 260L1040 110L1240 215L1450 115"/><path d="M180 370L360 90M520 225L690 400M850 260L1040 110M1040 110L1240 390M1240 215L1450 115"/></g>
+  <g fill="#050816" stroke="url(#cyan)" stroke-width="4" filter="url(#glow)"><circle cx="150" cy="160" r="12"/><circle cx="360" cy="90" r="12"/><circle cx="520" cy="225" r="12"/><circle cx="690" cy="125" r="12"/><circle cx="850" cy="260" r="12"/><circle cx="1040" cy="110" r="12"/><circle cx="1240" cy="215" r="12"/><circle cx="1450" cy="115" r="12"/><circle cx="180" cy="370" r="12"/><circle cx="690" cy="400" r="12"/><circle cx="1240" cy="390" r="12"/></g>
+  <g transform="translate(800 258)" fill="none" filter="url(#glow)"><circle r="162" stroke="url(#purple)" stroke-width="2" stroke-dasharray="10 16"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/></circle><circle r="124" stroke="url(#cyan)" stroke-width="2" stroke-dasharray="70 14 8 22"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/></circle><circle r="70" stroke="#00F5FF" stroke-width="3" opacity=".85"><animate attributeName="r" values="62;76;62" dur="2.5s" repeatCount="indefinite"/></circle><circle r="26" fill="#00F5FF" fill-opacity=".45" stroke="#F8FAFC" stroke-width="2"><animate attributeName="opacity" values=".35;1;.35" dur="1.6s" repeatCount="indefinite"/></circle></g>
+  <g fill="#00F5FF"><circle cx="245" cy="80" r="3"><animate attributeName="opacity" values=".1;1;.1" dur="2s" repeatCount="indefinite"/></circle><circle cx="1330" cy="365" r="4"><animate attributeName="opacity" values="1;.15;1" dur="2.7s" repeatCount="indefinite"/></circle><circle cx="970" cy="420" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle></g>
+  <text x="800" y="472" text-anchor="middle" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="6">BUILDING TOMORROW'S INTELLIGENCE</text>
+</svg>

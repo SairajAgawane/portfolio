@@ -1,548 +1,241 @@
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--        SAIRAJ AGAWANE — PREMIUM GITHUB README 2026 ⚡               -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
+<!-- Sairaj Agawane | Ultra-premium GitHub profile README -->
+
 <div align="center">
-<!-- ─────────────────── ANIMATED HEADER BANNER ─────────────────── -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=300&text=SAIRAJ%20AGAWANE&fontSize=72&color=0:0d0221,50:0a0e3f,100:0d0221&stroke=6E40C9&strokeWidth=2&fontColor=00f5ff&animation=fadeIn&fontAlignY=55&desc=AI%20Developer%20%7C%20ML%20Engineer%20%7C%20IoT%20Innovator%20%7C%20Future%20AI%20Architect&descSize=18&descAlignY=75&descColor=bd00ff" width="100%" />
 
-<!-- ─────────────────── TYPING ANIMATION ─────────────────── -->
+<img src="readme-assets/hero-banner.svg" alt="Animated holographic AI developer banner" width="100%" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&multiline=false&random=false&width=750&height=60&lines=⚡+Building+Intelligent+Systems+for+Industry+4.0;🧠+AI+Developer+%7C+ML+Engineer+%7C+IoT+Innovator;🤖+Creator+of+Jarvis+AI+%26+Predictive+Maintenance+Systems;🚀+Diploma+IT+→+Future+AI+Architect;💡+Where+Code+Meets+Cognition+Meets+Real-World+Impact" alt="Typing SVG" />
-</a>
+# ⚡ SAIRAJ AGAWANE
 
-<br/><br/>
+### AI Developer · ML Engineer · IoT Innovator · Future AI Architect
 
-<!-- ─────────────────── PROFILE QUICK BADGES ─────────────────── -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2700&pause=850&color=00F5FF&center=true&vCenter=true&width=820&lines=Building+Intelligent+Systems+for+Industry+4.0;AI+Developer+%7C+ML+Engineer+%7C+IoT+Innovator;Creator+of+JARVIS+AI;Exploring+Cybersecurity+and+AI;Building+Tomorrow's+Intelligence+Today." alt="Animated Sairaj Agawane profile tagline" />
 
-[![Portfolio](https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-sairaj--six.vercel.app-00f5ff?style=for-the-badge&labelColor=0d0221)](https://sairaj-six.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-SairajAgawane-bd00ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221)](https://github.com/SairajAgawane)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sairaj--it-6E40C9?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0221)](https://www.linkedin.com/in/sairaj-it)
-[![Email](https://img.shields.io/badge/Email-OPEN_CHANNEL-00f5ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0221)](mailto:sairajagawane2007@gmail.com)
+<br />
 
-<br/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-sairaj--six.vercel.app-00F5FF?style=for-the-badge&labelColor=050816)](https://sairaj-six.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-SairajAgawane-BD00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=050816)](https://github.com/SairajAgawane)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sairaj--it-3B82F6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=050816)](https://www.linkedin.com/in/sairaj-it)
+[![Email](https://img.shields.io/badge/Email-Open%20Channel-00F5FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050816)](mailto:sairajagawane2007@gmail.com)
+
+<br />
 
 [![Profile Views](https://komarev.com/ghpvc/?username=SairajAgawane&style=for-the-badge&color=6E40C9&label=NEURAL+VISITORS)](https://github.com/SairajAgawane)
-[![GitHub followers](https://img.shields.io/github/followers/SairajAgawane?style=for-the-badge&color=00f5ff&labelColor=0d0221&label=FOLLOWERS)](https://github.com/SairajAgawane?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/SairajAgawane?style=for-the-badge&color=bd00ff&labelColor=0d0221&label=TOTAL+STARS)](https://github.com/SairajAgawane)
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+[![Followers](https://img.shields.io/github/followers/SairajAgawane?style=for-the-badge&color=00F5FF&labelColor=050816&label=FOLLOWERS)](https://github.com/SairajAgawane?tab=followers)
+[![Stars](https://img.shields.io/github/stars/SairajAgawane?style=for-the-badge&color=BD00FF&labelColor=050816&label=TOTAL+STARS)](https://github.com/SairajAgawane)
 
 </div>
 
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                         ABOUT ME SECTION                             -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
+![Neon separator](readme-assets/neon-separator.svg)
 
-<div align="center">
-
-## 〔 ⚡ SYSTEM PROFILE — IDENTITY MODULE v2026 〕
-
-</div>
+## 〔 ⚡ SYSTEM PROFILE — IDENTITY MODULE 〕
 
 ```python
-#!/usr/bin/env python3
-# ╔══════════════════════════════════════════════════════════════════╗
-# ║              SAIRAJ AGAWANE — AI DEVELOPER CORE                 ║
-# ╚══════════════════════════════════════════════════════════════════╝
-
 class SairajAgawane:
-    def __init__(self):
-        self.name         = "Sairaj Agawane"
-        self.portfolio    = "https://sairaj-six.vercel.app/"
-        self.github       = "https://github.com/SairajAgawane"
-        self.email        = "sairajagawane2007@gmail.com"
-        self.location     = "Maharashtra, India 🇮🇳"
-        self.education    = "Diploma Engg. (Information Technology) — SVPM's ITE, Malegaon (Bk)"
-        self.current_role = "AI / ML / IoT Intern @ Air Guruji International"
-        self.roles        = [
-            "AI Developer 🤖",
-            "Machine Learning Engineer 🧠",
-            "IoT Innovator 📡",
-            "Software Developer 💻",
-            "Cybersecurity Enthusiast 🔐",
-            "Future AI Architect 🚀",
-        ]
-        self.interests    = [
-            "Artificial Intelligence", "Machine Learning",
-            "Software Development", "Cybersecurity",
-            "IoT Development", "Industry 4.0"
-        ]
-        self.goal         = "Become an AI Engineer & Cybersecurity Professional"
-        self.mission      = "Contribute to Industry 4.0 & digital transformation"
-        self.fun_fact     = "My Jarvis was running before Iron Man made it famous 😎"
+    name = "Sairaj Agawane"
+    location = "Maharashtra, India"
+    education = "Diploma Engineering — Information Technology"
+    institute = "SVPM's ITE, Malegaon (Bk)"
+    current_role = "AI / ML / IoT Intern @ Air Guruji International"
+    goal = "Become an AI Engineer & Cybersecurity Professional"
+    mission = "Contribute to Industry 4.0 and digital transformation"
 
-    def get_philosophy(self) -> str:
+    interests = [
+        "Artificial Intelligence", "Machine Learning",
+        "Internet of Things", "Computer Vision",
+        "Cybersecurity", "Software Development",
+        "Industry 4.0", "Robotics",
+    ]
+
+    def philosophy(self):
         return (
             "Building innovative AI, IoT, and Cybersecurity projects "
-            "that solve real-world challenges and improve everyday life "
-            "through next-generation technology."
+            "that solve real-world challenges and improve everyday life."
         )
-
-me = SairajAgawane()
-print(f"[ONLINE] {me.name} | {me.current_role}")
-print(f"[MISSION] {me.get_philosophy()}")
-# OUTPUT → [ONLINE] Sairaj Agawane | AI / ML / IoT Intern @ Air Guruji International
-# OUTPUT → [MISSION] Building innovative AI, IoT & Cybersecurity projects for real-world impact
 ```
 
-<div align="center">
+| Profile signal | Current information |
+|---|---|
+| 🎓 Education | Diploma Engineering — Information Technology, SVPM's ITE, Malegaon (Bk) |
+| 💼 Experience | AI / ML / IoT Intern at Air Guruji International |
+| 📍 Location | Maharashtra, India |
+| 🎯 Goal | AI Engineer & Cybersecurity Professional |
+| 🤝 Open to | Collaborations, internships, research, and open source |
 
-<table>
-<tr>
-<td>🎓 <b>Education</b></td>
-<td>Diploma Engg. (IT) — SVPM's ITE, Malegaon (Bk)</td>
-</tr>
-<tr>
-<td>💼 <b>Current Role</b></td>
-<td>AI / ML / IoT Intern @ Air Guruji International</td>
-</tr>
-<tr>
-<td>📍 <b>Location</b></td>
-<td>Maharashtra, India</td>
-</tr>
-<tr>
-<td>🌐 <b>Portfolio</b></td>
-<td><a href="https://sairaj-six.vercel.app/">sairaj-six.vercel.app</a></td>
-</tr>
-<tr>
-<td>📧 <b>Email</b></td>
-<td><a href="mailto:sairajagawane2007@gmail.com">sairajagawane2007@gmail.com</a></td>
-</tr>
-<tr>
-<td>🎯 <b>Goal</b></td>
-<td>AI Engineer & Cybersecurity Professional</td>
-</tr>
-<tr>
-<td>⚡ <b>Open To</b></td>
-<td>Collaborations · Internships · Research · Open Source</td>
-</tr>
-</table>
+![Neural network illustration](readme-assets/neural-network.svg)
 
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                       AI & ML FOCUS SECTION                          -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
+![Neon separator](readme-assets/neon-separator.svg)
 
 ## 〔 🧠 NEURAL CORE — AI & ML CAPABILITIES 〕
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Domain | Focus areas |
+|---|---|
+| 🤖 Artificial Intelligence | Natural Language Processing, computer vision with OpenCV, voice recognition, speech synthesis, conversational AI, intelligent command processing |
+| 📊 Machine Learning | Supervised and unsupervised learning, predictive maintenance, anomaly detection, sensor analytics, feature engineering, ML deployment |
+| 📡 IoT & Industry 4.0 | ESP32, ESP32-CAM, DHT11 and IR sensors, smart factory automation, QR maintenance monitoring, IoT dashboards, robotics |
+| 🔐 Cybersecurity & Systems | Cybersecurity fundamentals, secure software architecture, system design, embedded systems, data analysis, full-stack development |
 
-### 🤖 Artificial Intelligence
-```
-▸ Natural Language Processing (NLP)
-▸ Computer Vision (OpenCV)
-▸ Voice Recognition & Speech Synthesis
-▸ Conversational AI & Chatbot Systems
-▸ Intelligent Command Processing
-▸ AI-Powered Web Applications
-```
+## 〔 💻 TECH ARSENAL — VERIFIED SKILLS 〕
 
-</td>
-<td width="50%" valign="top">
+### Programming and web
 
-### 📊 Machine Learning
-```
-▸ Supervised & Unsupervised Learning
-▸ Predictive Maintenance Modelling
-▸ Anomaly & Failure Detection
-▸ Time-Series & Sensor Analytics
-▸ Feature Engineering Pipelines
-▸ ML Deployment & Integration
-```
+![Python](https://img.shields.io/badge/Python-050816?style=for-the-badge&logo=python&logoColor=00F5FF)
+![JavaScript](https://img.shields.io/badge/JavaScript-050816?style=for-the-badge&logo=javascript&logoColor=BD00FF)
+![Java](https://img.shields.io/badge/Java-050816?style=for-the-badge&logo=openjdk&logoColor=00F5FF)
+![C++](https://img.shields.io/badge/C%2B%2B-050816?style=for-the-badge&logo=cplusplus&logoColor=BD00FF)
+![C](https://img.shields.io/badge/C-050816?style=for-the-badge&logo=c&logoColor=00F5FF)
+![HTML5](https://img.shields.io/badge/HTML5-050816?style=for-the-badge&logo=html5&logoColor=BD00FF)
+![CSS3](https://img.shields.io/badge/CSS3-050816?style=for-the-badge&logo=css3&logoColor=00F5FF)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### AI, ML, and data
 
-### 📡 IoT & Industry 4.0
-```
-▸ ESP32 / ESP32-CAM Edge Intelligence
-▸ DHT11 & IR Sensor Fusion
-▸ Smart Factory Automation
-▸ QR Code Maintenance Monitoring
-▸ Real-Time IoT Dashboards
-▸ Mobile-Controlled Robotics
-```
+![OpenCV](https://img.shields.io/badge/OpenCV-050816?style=for-the-badge&logo=opencv&logoColor=00F5FF)
+![Power BI](https://img.shields.io/badge/Power%20BI-050816?style=for-the-badge&logo=powerbi&logoColor=BD00FF)
+![QR / Pyzbar](https://img.shields.io/badge/QR%20%2F%20Pyzbar-050816?style=for-the-badge&logo=qrcode&logoColor=00F5FF)
+![Speech APIs](https://img.shields.io/badge/Speech%20APIs-050816?style=for-the-badge&logo=amazon&logoColor=BD00FF)
 
-</td>
-<td width="50%" valign="top">
+### IoT and embedded systems
 
-### 🔐 Cybersecurity & Systems
-```
-▸ Cybersecurity Fundamentals
-▸ Secure Software Architecture
-▸ System Design & Optimization
-▸ Embedded Systems Programming
-▸ Data Analysis & Power BI
-▸ Full-Stack Web Development
-```
+![ESP32](https://img.shields.io/badge/ESP32-050816?style=for-the-badge&logo=espressif&logoColor=00F5FF)
+![ESP32 CAM](https://img.shields.io/badge/ESP32--CAM-050816?style=for-the-badge&logo=espressif&logoColor=BD00FF)
+![IoT](https://img.shields.io/badge/IoT%20Systems-050816?style=for-the-badge&logo=arduino&logoColor=00F5FF)
+![Robotics](https://img.shields.io/badge/Robotics-050816?style=for-the-badge&logo=ros&logoColor=BD00FF)
 
-</td>
-</tr>
-</table>
+### Data, tools, and security
 
-</div>
+![MySQL](https://img.shields.io/badge/MySQL-050816?style=for-the-badge&logo=mysql&logoColor=00F5FF)
+![Git](https://img.shields.io/badge/Git-050816?style=for-the-badge&logo=git&logoColor=BD00FF)
+![GitHub](https://img.shields.io/badge/GitHub-050816?style=for-the-badge&logo=github&logoColor=00F5FF)
+![VS Code](https://img.shields.io/badge/VS%20Code-050816?style=for-the-badge&logo=visualstudiocode&logoColor=BD00FF)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-050816?style=for-the-badge&logo=hackthebox&logoColor=00F5FF)
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                        TECH STACK SECTION                            -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 〔 💻 TECH ARSENAL — FULL STACK LOADOUT 〕
-
-### ⚡ Languages
-
-![Python](https://img.shields.io/badge/Python-0d0221?style=for-the-badge&logo=python&logoColor=00f5ff)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d0221?style=for-the-badge&logo=javascript&logoColor=bd00ff)
-![Java](https://img.shields.io/badge/Java-0d0221?style=for-the-badge&logo=openjdk&logoColor=00f5ff)
-![C++](https://img.shields.io/badge/C++-0d0221?style=for-the-badge&logo=cplusplus&logoColor=bd00ff)
-![C](https://img.shields.io/badge/C-0d0221?style=for-the-badge&logo=c&logoColor=00f5ff)
-![HTML5](https://img.shields.io/badge/HTML5-0d0221?style=for-the-badge&logo=html5&logoColor=bd00ff)
-![CSS3](https://img.shields.io/badge/CSS3-0d0221?style=for-the-badge&logo=css3&logoColor=00f5ff)
-
-### 🧠 AI / ML / CV Ecosystem
-
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-0d0221?style=for-the-badge&logo=tensorflow&logoColor=00f5ff)
-![OpenCV](https://img.shields.io/badge/OpenCV-0d0221?style=for-the-badge&logo=opencv&logoColor=bd00ff)
-![Pyzbar](https://img.shields.io/badge/Pyzbar_QR-0d0221?style=for-the-badge&logo=qrcode&logoColor=00f5ff)
-![Speech API](https://img.shields.io/badge/Speech_API-0d0221?style=for-the-badge&logo=amazon&logoColor=bd00ff)
-![Power BI](https://img.shields.io/badge/Power_BI-0d0221?style=for-the-badge&logo=powerbi&logoColor=00f5ff)
-
-### 📡 IoT & Embedded Hardware
-
-![ESP32](https://img.shields.io/badge/ESP32-0d0221?style=for-the-badge&logo=espressif&logoColor=00f5ff)
-![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-0d0221?style=for-the-badge&logo=espressif&logoColor=bd00ff)
-![IoT](https://img.shields.io/badge/IoT_Systems-0d0221?style=for-the-badge&logo=arduino&logoColor=00f5ff)
-![Robotics](https://img.shields.io/badge/Robotics-0d0221?style=for-the-badge&logo=ros&logoColor=bd00ff)
-
-### 🗄️ Data, Tools & Security
-
-![MySQL](https://img.shields.io/badge/MySQL-0d0221?style=for-the-badge&logo=mysql&logoColor=00f5ff)
-![Git](https://img.shields.io/badge/Git-0d0221?style=for-the-badge&logo=git&logoColor=bd00ff)
-![GitHub](https://img.shields.io/badge/GitHub-0d0221?style=for-the-badge&logo=github&logoColor=00f5ff)
-![VS Code](https://img.shields.io/badge/VS_Code-0d0221?style=for-the-badge&logo=visualstudiocode&logoColor=bd00ff)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-0d0221?style=for-the-badge&logo=hackthebox&logoColor=00f5ff)
-
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                     FEATURED PROJECTS SECTION                        -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
+![Neon separator](readme-assets/neon-separator.svg)
 
 ## 〔 🚀 FLAGSHIP PROJECTS — DEPLOYED INTELLIGENCE 〕
 
-</div>
-
-<div align="center">
-<table>
-<tr>
-
-<!-- ─── PROJECT 1: JARVIS ─── -->
-<td width="50%" valign="top">
-
-<div align="center">
-
 ### 🤖 JARVIS AI — Virtual Intelligence Core
 
-[![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-ONLINE-00f5ff?style=for-the-badge&labelColor=0d0221)](https://jarvis-o6a8w8yyd-sais-projects-3ea77644.vercel.app)
-[![Source](https://img.shields.io/badge/GitHub-SOURCE-bd00ff?style=for-the-badge&logo=github&labelColor=0d0221)](https://github.com/SairajAgawane/phonebook-directory-bst)
+A browser-based voice assistant with voice recognition, speech synthesis, supported voice commands, web search actions, and a futuristic interface.
 
-</div>
+[![Source Code](https://img.shields.io/badge/Source%20Code-Jarvis--AI-BD00FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SairajAgawane/Jarvis-AI)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-00F5FF?style=for-the-badge&logo=vercel&logoColor=050816)](https://jarvis-ai-wheat-ten.vercel.app/)
 
-```
-╔══════════════════════════════════════╗
-║   JARVIS BOOT SEQUENCE — v2.0        ║
-║   > Voice Recognition  ... [OK]      ║
-║   > NLP Engine         ... [OK]      ║
-║   > Speech Synthesis   ... [OK]      ║
-║   > Smart Commands     ... [OK]      ║
-║   > Web Search Module  ... [OK]      ║
-║   > AI Core Status     ... [ONLINE]  ║
-╚══════════════════════════════════════╝
-```
+**Verified focus:** Web Speech API, Speech Synthesis, voice commands, Google/YouTube/Wikipedia actions, time/date responses, and a futuristic UI.
 
-An intelligent web-based AI assistant with **voice commands**, **speech recognition**, **smart responses**, **real-time web search**, and live interaction — built through a fully modern futuristic UI.
+### ⚙️ Intelligent Predictive Maintenance System
 
-**🔬 Tech Stack:**
+An Industry 4.0 concept combining IoT hardware, sensor data, computer vision, QR maintenance monitoring, robotics, and predictive analytics.
 
-![HTML5](https://img.shields.io/badge/HTML5-0d0221?style=flat-square&logo=html5&logoColor=00f5ff)
-![CSS3](https://img.shields.io/badge/CSS3-0d0221?style=flat-square&logo=css3&logoColor=bd00ff)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d0221?style=flat-square&logo=javascript&logoColor=00f5ff)
-![Speech API](https://img.shields.io/badge/Speech_API-0d0221?style=flat-square&logo=amazon&logoColor=bd00ff)
-![JSON](https://img.shields.io/badge/JSON-0d0221?style=flat-square&logo=json&logoColor=00f5ff)
+[![Portfolio Project](https://img.shields.io/badge/Project%20Details-Portfolio-00F5FF?style=for-the-badge)](https://sairaj-six.vercel.app/#projects)
 
-**⚡ Core Features:**
-- 🎙️ Real-time Voice Recognition Engine
-- 🔊 Neural Text-to-Speech Synthesis
-- 🌐 Integrated Web Search Commands
-- 🧠 Smart Context-Aware AI Responses
-- 🖥️ Futuristic Glassmorphic Interface
+**Showcase areas:** ESP32, ESP32-CAM, DHT11 and IR sensors, QR maintenance monitoring, AI/ML predictive analytics, IoT dashboards, robotics, and automation.
 
-</td>
+> No separate source repository or live deployment URL for this project is listed in the profile README.
 
-<!-- ─── PROJECT 2: PREDICTIVE MAINTENANCE ─── -->
-<td width="50%" valign="top">
-
-<div align="center">
-
-### ⚙️ INTELLIGENT PREDICTIVE MAINTENANCE
-
-[![Industry 4.0](https://img.shields.io/badge/🏭_INDUSTRY_4.0-ACTIVE-00f5ff?style=for-the-badge&labelColor=0d0221)](https://sairaj-six.vercel.app/#projects)
-[![Type](https://img.shields.io/badge/IoT_+_AI-TEAM_PROJECT-bd00ff?style=for-the-badge&labelColor=0d0221)](https://sairaj-six.vercel.app/#projects)
-
-</div>
-
-```
-╔══════════════════════════════════════╗
-║   FACTORY INTELLIGENCE CORE          ║
-║   > ESP32 MCU Node     ... [LIVE]    ║
-║   > ESP32-CAM Stream   ... [ONLINE]  ║
-║   > DHT11 Sensor       ... [READING] ║
-║   > IR Obstacle Detect ... [ACTIVE]  ║
-║   > QR Maintenance Log ... [OK]      ║
-║   > Predictive AI      ... [ALERT!]  ║
-╚══════════════════════════════════════╝
-```
-
-An **Industry 4.0** platform fusing IoT sensor networks with ML-powered analytics — featuring a mobile-controlled robot, crane mechanism, live ESP32-CAM streaming, and QR-based maintenance logging.
-
-**🔬 Tech Stack:**
-
-![Python](https://img.shields.io/badge/Python-0d0221?style=flat-square&logo=python&logoColor=00f5ff)
-![ESP32](https://img.shields.io/badge/ESP32-0d0221?style=flat-square&logo=espressif&logoColor=bd00ff)
-![OpenCV](https://img.shields.io/badge/OpenCV-0d0221?style=flat-square&logo=opencv&logoColor=00f5ff)
-![Pyzbar](https://img.shields.io/badge/Pyzbar-0d0221?style=flat-square&logo=qrcode&logoColor=bd00ff)
-![HTML/CSS/JS](https://img.shields.io/badge/Web_Stack-0d0221?style=flat-square&logo=html5&logoColor=00f5ff)
-
-**⚡ Core Features:**
-- 📱 Mobile-Controlled ESP32 Robot
-- 📷 Live ESP32-CAM Video Streaming
-- 📲 QR Code Maintenance Monitoring
-- 🌡️ DHT11 Temperature & IR Sensors
-- 🔮 AI/ML Predictive Failure Engine
-- 🏭 Real-Time IoT Dashboard — 5+ Sensors
-
-</td>
-
-</tr>
-</table>
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                       EXPERIENCE SECTION                             -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
+![Neon separator](readme-assets/neon-separator.svg)
 
 ## 〔 💼 EXPERIENCE — PROFESSIONAL JOURNEY 〕
 
-</div>
+### AI / ML / IoT Intern · Air Guruji International
 
-```yaml
-# ╔══════════════════════════════════════════════════════════════════╗
-# ║         SAIRAJ AGAWANE — PROFESSIONAL EXPERIENCE LOG            ║
-# ╚══════════════════════════════════════════════════════════════════╝
+The profile’s current experience record describes work across:
 
-experience:
-  - role:       "AI / ML / IoT Intern"
-    company:    "Air Guruji International"
-    status:     CURRENT  ← ACTIVE
-    type:       "Hands-on Industry Internship"
+- AI, machine learning, and IoT systems;
+- AI-powered solutions and automation tools;
+- Industry 4.0 and smart manufacturing projects;
+- cybersecurity application development; and
+- digital transformation initiatives.
 
-    responsibilities:
-      - "Developing intelligent systems with AI, ML & IoT"
-      - "Building real-world AI-powered solutions & automation tools"
-      - "Working on Industry 4.0 & smart manufacturing projects"
-      - "Cybersecurity application development"
-      - "Contributing to digital transformation initiatives"
+### Education
 
-    tech_used:
-      - Artificial Intelligence
-      - Machine Learning
-      - Internet of Things (IoT)
-      - Python Development
-      - Cybersecurity
-      - Automation Technologies
+**Diploma Engineering — Information Technology**
+SVPM's ITE, Malegaon (Bk)
 
-education:
-  - degree:     "Diploma Engineering — Information Technology"
-    institute:  "SVPM's ITE, Malegaon (Bk)"
-    focus:      ["AI", "ML", "IoT", "Cybersecurity", "Software Engineering"]
-    status:     PURSUING
-```
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                       GITHUB STATS SECTION                           -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
+![Neon separator](readme-assets/neon-separator.svg)
 
 ## 〔 📊 PERFORMANCE METRICS — GITHUB TELEMETRY 〕
 
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=SairajAgawane&show_icons=true&theme=transparent&title_color=00f5ff&text_color=bd00ff&icon_color=6E40C9&border_color=6E40C9&bg_color=0d0221&hide_border=false&rank_icon=github&custom_title=⚡+Sairaj+Agawane's+GitHub+Stats&include_all_commits=true&count_private=true" width="48%" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=SairajAgawane&theme=transparent&hide_border=false&border=6E40C9&dates=bd00ff&ring=00f5ff&fire=00f5ff&currStreakLabel=00f5ff&sideLabels=bd00ff&stroke=6E40C9&background=0d0221&currStreakNum=00f5ff&sideNums=bd00ff" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SairajAgawane&layout=donut-vertical&theme=transparent&title_color=00f5ff&text_color=bd00ff&icon_color=6E40C9&border_color=6E40C9&bg_color=0d0221&hide_border=false&custom_title=🧬+Neural+Language+Matrix&langs_count=8" width="36%" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SairajAgawane&theme=react-dark&bg_color=0d0221&color=00f5ff&line=6E40C9&point=bd00ff&area=true&area_color=6E40C9&hide_border=false&border_color=6E40C9&custom_title=⚡+Contribution+Neural+Graph" width="60%" />
-
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                      ACHIEVEMENT TROPHIES                            -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
+These cards are live-service views generated for the GitHub account and are not manually fabricated statistics.
 
 <div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=SairajAgawane&show_icons=true&theme=transparent&title_color=00F5FF&text_color=BD00FF&icon_color=6E40C9&border_color=6E40C9&bg_color=050816&rank_icon=github&custom_title=Sairaj%20Agawane%20GitHub%20Stats&include_all_commits=true&count_private=true" width="48%" alt="GitHub statistics" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=SairajAgawane&theme=transparent&hide_border=false&border=6E40C9&dates=BD00FF&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&sideLabels=BD00FF&stroke=6E40C9&background=050816&currStreakNum=00F5FF&sideNums=BD00FF" width="48%" alt="GitHub contribution streak" />
+
+<br />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SairajAgawane&layout=compact&theme=transparent&title_color=00F5FF&text_color=BD00FF&border_color=6E40C9&bg_color=050816&langs_count=8" width="38%" alt="Most used programming languages" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SairajAgawane&theme=react-dark&bg_color=050816&color=00F5FF&line=6E40C9&point=BD00FF&area=true&area_color=6E40C9&border_color=6E40C9&custom_title=Contribution%20Neural%20Graph" width="58%" alt="GitHub contribution graph" />
+
+</div>
 
 ## 〔 🏆 ACHIEVEMENT MATRIX — UNLOCKED TROPHIES 〕
 
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=SairajAgawane&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7&title=Stars,Commit,Repositories,Followers,PullRequest,Issues,Reviews" width="100%"/>
-
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                      CURRENTLY WORKING ON                            -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-## 〔 🌐 SYSTEM STATUS — LIVE PROCESSES 〕
+<img src="https://github-profile-trophy.vercel.app/?username=SairajAgawane&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7&title=Stars,Commit,Repositories,Followers,PullRequest,Issues,Reviews" width="100%" alt="GitHub profile trophies" />
 
 </div>
 
+![Neon separator](readme-assets/neon-separator.svg)
+
+## 〔 🌐 SYSTEM STATUS — CURRENT FOCUS 〕
+
 ```yaml
-# ╔══════════════════════════════════════════════════════════════════╗
-# ║             SAIRAJ AGAWANE — ACTIVE SYSTEM PROCESSES            ║
-# ╚══════════════════════════════════════════════════════════════════╝
-
-active_processes:
-  - id: PROC_001
-    task: "AI / ML / IoT Internship @ Air Guruji International"
-    status: ████████████████████  RUNNING
-
-  - id: PROC_002
-    task: "Advancing Computer Vision & OpenCV Systems"
-    status: ████████████████░░░░  80%
-
-  - id: PROC_003
-    task: "Industry 4.0 Smart Factory Research"
-    status: █████████████░░░░░░░  65%
-
-  - id: PROC_004
-    task: "Diploma IT — Information Technology"
-    status: ████████████░░░░░░░░  60%
-
-  - id: PROC_005
-    task: "Cybersecurity Skills & Certifications"
-    status: ██████████░░░░░░░░░░  50%
+current_focus:
+  - "AI / ML / IoT development"
+  - "Computer Vision and OpenCV systems"
+  - "Industry 4.0 smart factory research"
+  - "Cybersecurity skills and certifications"
 
 learning_queue:
-  - "Transformer Architectures & Large Language Models"
+  - "Transformer Architectures and Large Language Models"
   - "Federated Learning for IoT Edge Devices"
   - "Advanced Embedded AI (TinyML)"
   - "Quantum-Classical Hybrid AI"
-  - "Generative AI & Diffusion Models"
+  - "Generative AI and Diffusion Models"
 
 ask_me_about:
   - "AI / ML Architecture"
-  - "IoT & ESP32 Systems"
-  - "OpenCV & Computer Vision"
+  - "IoT and ESP32 Systems"
+  - "OpenCV and Computer Vision"
   - "Industry 4.0 Automation"
   - "Cybersecurity Fundamentals"
 ```
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+No percentage values are presented here as current measurements; the topics represent the profile’s stated focus and learning interests.
 
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                      CONNECT WITH ME SECTION                         -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
+![Neon separator](readme-assets/neon-separator.svg)
+
+## 〔 📡 ESTABLISH CONNECTION — OPEN CHANNELS 〕
 
 <div align="center">
 
-## 〔 📡 ESTABLISH CONNECTION — OPEN ALL CHANNELS 〕
+*Open for collaborations, internships, research, open source, and technical discussions.*
 
-*Transmitting across all protocols. Open for collaborations, internships & tech discussions.*
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-sairaj--six.vercel.app-00f5ff?style=for-the-badge&labelColor=0d0221)](https://sairaj-six.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-SairajAgawane-bd00ff?style=for-the-badge&logo=github&labelColor=0d0221)](https://github.com/SairajAgawane)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sairaj--it-6E40C9?style=for-the-badge&logo=linkedin&labelColor=0d0221)](https://www.linkedin.com/in/sairaj-it)
-[![Gmail](https://img.shields.io/badge/Email-sairajagawane2007@gmail.com-00f5ff?style=for-the-badge&logo=gmail&labelColor=0d0221)](mailto:sairajagawane2007@gmail.com)
-[![Resume](https://img.shields.io/badge/📄_Resume-Download_CV-bd00ff?style=for-the-badge&labelColor=0d0221)](https://drive.google.com/uc?export=download&id=1L56gm3WRBAG_XVXA6zkhJ2QKb5QLJWyE)
-
-<br/>
-
-> *"AI is not the future — it's the infrastructure of now. Build it, own it, deploy it."*
->
-> **— Sairaj Agawane, 2026**
-
-<br/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-sairaj--six.vercel.app-00F5FF?style=for-the-badge&labelColor=050816)](https://sairaj-six.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-SairajAgawane-BD00FF?style=for-the-badge&logo=github&labelColor=050816)](https://github.com/SairajAgawane)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sairaj--it-3B82F6?style=for-the-badge&logo=linkedin&labelColor=050816)](https://www.linkedin.com/in/sairaj-it)
+[![Email](https://img.shields.io/badge/Email-sairajagawane2007%40gmail.com-00F5FF?style=for-the-badge&logo=gmail&labelColor=050816)](mailto:sairajagawane2007@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-Download%20CV-BD00FF?style=for-the-badge&labelColor=050816)](https://drive.google.com/uc?export=download&id=1L56gm3WRBAG_XVXA6zkhJ2QKb5QLJWyE)
 
 </div>
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+> “AI is not the future — it’s the infrastructure of now. Build it, own it, deploy it.”
+> **— Sairaj Agawane, 2026**
 
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--                    VISITOR COUNTER + FOOTER                          -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
+## 〔 🛰️ SIGNAL TRACE — PROFILE FOOTER 〕
 
 <div align="center">
 
-## 〔 🛰️ SIGNAL TRACE — NEURAL VISITOR COUNT 〕
-
-<br/>
-
 ![Visitor Count](https://profile-counter.glitch.me/SairajAgawane/count.svg)
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:6E40C9,50:00f5ff,100:6E40C9&section=footer&reversal=false&fontColor=00f5ff&animation=fadeIn" width="100%" />
-
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:6E40C9,50:00F5FF,100:6E40C9&section=footer&animation=fadeIn" width="100%" alt="Animated cyan and purple footer wave" />
 
 **⚡ Engineered with precision by [Sairaj Agawane](https://sairaj-six.vercel.app/)**
-
-![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-sairaj--six.vercel.app-00f5ff?style=flat-square&labelColor=0d0221)
-![Status](https://img.shields.io/badge/Status-Online_%26_Evolving-6E40C9?style=flat-square&labelColor=0d0221)
-![Powered](https://img.shields.io/badge/Powered_By-AI_%26_Curiosity-bd00ff?style=flat-square&labelColor=0d0221)
 
 *© 2026 Sairaj Agawane · Maharashtra, India · Building Tomorrow's Intelligence, Today*
 
 </div>
 
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--       END OF SAIRAJ AGAWANE — PREMIUM README v2026 ⚡                -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-⚡ Building Tomorrow's Intelligence Today
